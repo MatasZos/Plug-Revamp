@@ -1,0 +1,69 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.signin-container {
+    max-width: 400px;
+    margin: 4rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.signin-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.signin-container label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.signin-container input[type="email"],
+.signin-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.signin-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-container button:hover {
+    background-color: red;
+}
+
+.signin-container .link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.signin-container .link a {
+    color: red;
+    text-decoration: none;
+}
+
+.signin-container .link a:hover {
+    text-decoration: underline;
+}
