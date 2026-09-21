@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.admin-container {
+    display: flex;
+}
+
+.admin-sidebar {
+    width: 220px;
+    background-color: #111;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.admin-sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-sidebar ul li {
+    margin: 10px 0;
+}
+
+.admin-sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.admin-sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.admin-main {
+    flex-grow: 1;
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+.admin-form input,
+.admin-form textarea,
+.variant-form input {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.admin-form button,
+.variant-form button {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.admin-form button:hover {
+    background: darkred;
+}
+
+.admin-product-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.admin-table th,
+.admin-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
